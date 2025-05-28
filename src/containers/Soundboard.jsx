@@ -2,9 +2,10 @@ import Button from "./Button.jsx";
 
 export default function Soundboard() {
     const sounds = [
-        { label: 'Hell\'s Kitchen', url: '/sounds/Kitchen.mp3', icon: '🔔' }, // Fixed icon
-        { label: 'Vine Boom', url: '/sounds/VineBoom.mp3', icon: '💰' },
-        { label: 'Μην χειροδικείτε', url: '/sounds/MinXeirodikeite.mp3', icon: '✋' }, // Fixed icon
+        { label: 'Hell\'s Kitchen', url: '/sounds/Kitchen.mp3', icon: '🔔' },
+        { label: 'Vine Boom', url: '/sounds/VineBoom.mp3', icon: '💥' },
+        { label: 'Siren', url: '/sounds/999-social-credit-siren.mp3', icon: '🚨' },
+        { label: 'Μην χειροδικείτε', url: '/sounds/MinXeirodikeite.mp3', icon: '✋' },
     ]
 
     return (
